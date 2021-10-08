@@ -1,0 +1,33 @@
+.dashboard {
+  height: 50%;
+  width: 30%;
+  margin: auto;
+  margin-top: 20%;
+}
+.dashboard__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #dcdcdc;
+  padding: 30px;
+}
+.dashboard__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.dashboard__btn2 {
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+.dashboard div {
+  margin-top: 7px;
+}
