@@ -1,0 +1,65 @@
+.box_div{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    height:50vh;
+}
+
+.box-wrapper1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:40vh;
+}
+
+.box-wrapper2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:40vh;
+    margin-top: 5vh;
+}
+
+.Logo1{
+    flex-wrap: wrap;
+    width:300px;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+}
+
+.Text1{
+    flex-wrap: wrap;
+    width:300px;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+}
+
+.Text1 p {
+    text-align: center;
+}
+
+.t1{
+    display:block;
+    width:300px;
+    height:250px;
+}
+
+.t2{
+    display:block;
+    width:300px;
+    height:250px;
+}
+
+.navbar{
+    background-color: #FFDE59;
+}

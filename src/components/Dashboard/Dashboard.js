@@ -29,6 +29,7 @@ function Dashboard() {
     fetchUserName();
   }, [user, loading]);
   return (
+    <div className="dashboard-wrapper">
     <div className="dashboard">
       <div className="dashboard__container">
         <div>{name}</div>
@@ -42,6 +43,7 @@ function Dashboard() {
           Next
         </Link>
       </div>
+    </div>
     </div>
   );
 }

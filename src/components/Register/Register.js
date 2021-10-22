@@ -25,6 +25,8 @@ function Register() {
   return (
     <div className="register">
       <div className="register__container">
+      <h2> Enter Your Details </h2>
+      <h2>✍️ </h2><br/>
         <input
           type="text"
           className="register__textBox"
@@ -56,7 +58,7 @@ function Register() {
           Register with Google
         </button>
         <div>
-          Already have an account? <Link to="/">Login</Link> now.
+          Already have an account? <Link to="/Login">Login</Link> now.
         </div>
       </div>
     </div>

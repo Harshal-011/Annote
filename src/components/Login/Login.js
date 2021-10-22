@@ -7,7 +7,9 @@ import {
 } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "./login.css";
+import Home from "../Home/Home"
 function Login() {
+ 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [user, loading, error] = useAuthState(auth);
@@ -49,6 +51,9 @@ function Login() {
         </button>
         <div>
           <Link to="/reset">Forgot Password</Link>
+        </div>
+        <div>
+          <a href="/">Back</a>
         </div>
         <div>
           Don't have an account? <Link to="/register">Register</Link> now.
